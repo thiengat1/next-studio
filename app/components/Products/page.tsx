@@ -22,7 +22,7 @@ function Products() {
             Great Digital Product Agency since 2016{' '}
           </h2>
           <p>
-            Our Business Plan is a written document describing a company's core
+            Our Business Plan is a written document describing a companys core
             business activites, Objectives, and how it plans to achieve its
             goals. Our goal is to provide our client high quality Product with
             modern idea accordingly their budgets and according thir
