@@ -1,7 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-function Animation({ children }) {
+export interface IAnimationProps {
+  children: any;
+}
+
+export default function Animation({ children }: IAnimationProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 200 }}
@@ -13,5 +17,3 @@ function Animation({ children }) {
     </motion.div>
   );
 }
-
-export default Animation;
