@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 export interface IAnimationProps {
-  children: any;
+  children: any | null | undefined;
 }
 
 export default function Animation({ children }: IAnimationProps) {
