@@ -18,10 +18,42 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+.lewis-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: white;
+  font-weight: 600;
+  border-radius: 40px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.lewis-btn:hover::before {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+.lewis-btn::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: auto;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: #fff;
+  opacity: 0.1;
+  z-index: -1;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }

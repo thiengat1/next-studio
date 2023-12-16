@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Business Idea Planning",
+    "content": "We present you a proposal and discuss niffty-gritty like",
+    "image": "box-search"
+  },
+  {
+    "id": 2,
+    "name": "Financial Planning System",
+    "content": "Protocols apart from aengage models, pricing billing",
+    "image": "empty-wallet"
+  },
+  {
+    "id": 3,
+    "name": "Development Website and App",
+    "content": "Communication protocols apart from engagement models",
+    "image": "code"
+  },
+  {
+    "id": 4,
+    "name": "Market Analysis Project",
+    "content": "Protocols apart from aengage models, pricing billing",
+    "image": "chart-square"
+  }
+]
